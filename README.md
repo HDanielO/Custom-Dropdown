@@ -6,6 +6,10 @@ This is a simple project based on the [roadmap.sh Custom Dropdown challenge](htt
 
 The goal of this project is to create a custom dropdown menu using HTML, CSS, and JavaScript. The dropdown allows users to select an item from a list. It demonstrates DOM manipulation, event handling, and creating interactive UI elements.
 
+## Live Demo
+
+You can try the project here: [https://custom-dropdown-beta.vercel.app/](https://custom-dropdown-beta.vercel.app/)
+
 ## Features
 
 - Custom dropdown menu with placeholder text

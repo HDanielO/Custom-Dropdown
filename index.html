@@ -6,18 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom Dropdown</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/70671c24a0.js" crossorigin="anonymous"></script>
   <script defer src="script.js"></script>
 </head>
 
 <body>
-  <section class="dropdownSec">
-    <select name="items" id="items">
-      <option value="" disabled selected>Select an Item</option>
-      <option value="firstItem">First Item</option>
-      <option value="secondItem">Second Item</option>
-      <option value="thirdItem">Third Item</option>
-      <option value="fourthItem">Fourth Item</option>
-    </select>
+  <section class="dropdownSection">
+    <div class="dropdown">
+      <button class="dropdownLabel"><label>Select an Item</label>
+        <i class="fa-solid fa-caret-down"></i>
+      </button>
+      <ul>
+        <li class="item">First Item <i class="fa-solid fa-circle-check"></i></li>
+        <li class="item">Second Item <i class="fa-solid fa-circle-check"></i></li>
+        <li class="item">Third Item <i class="fa-solid fa-circle-check"></i></li>
+        <li class="item">Fourth Item <i class="fa-solid fa-circle-check"></i></li>
+        <li class="item">Fifth Item <i class="fa-solid fa-circle-check"></i></li>
+      </ul>
+    </div>
   </section>
 </body>
 
